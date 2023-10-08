@@ -56,32 +56,29 @@ function renderCheese() {
 }
 
 function renderTomatoes() {
-  //Trial 1 - Change the visibility of Tomatoes based on state by manipulating the DOM
-  let cheese = document.querySelector("#tomatoes");
+  let tomatoes = document.querySelector("#tomato");
   if (state.Tomatoes) {
-    cheese.style.display = "inherit";
+    tomatoes.style.display = "inherit";
   } else {
-    cheese.style.display = "none";
+    tomatoes.style.display = "none";
   }
 }
 
 function renderOnions() {
-  //Trial 1 - Change the visibility of Onions based on state by manipulating the DOM
-  let cheese = document.querySelector("#onions");
+  let onions = document.querySelector("#onion");
   if (state.Onions) {
-    cheese.style.display = "inherit";
+    onions.style.display = "inherit";
   } else {
-    cheese.style.display = "none";
+    onions.style.display = "none";
   }
 }
 
 function renderLettuce() {
-  //Trial 1 - Change the visibility of Lettuce based on state by manipulating the DOM
-  let cheese = document.querySelector("#lettuce");
+  let lettuce = document.querySelector("#lettuce");
   if (state.Lettuce) {
-    cheese.style.display = "inherit";
+    lettuce.style.display = "inherit";
   } else {
-    cheese.style.display = "none";
+    lettuce.style.display = "none";
   }
 }
 
